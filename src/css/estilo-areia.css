@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #2abdbb;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body.modo-escuro {
+    background: url("https://images4.alphacoders.com/986/98696.jpg");
+    color: #333333;
+    transition: 0, 10s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body.modo-escuro {
+    background: url("https://images4.alphacoders.com/986/98696.jpg");
+    color: #333333;
+    transition: 0, 10s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header #botao-alterar-tema{
+    bottom: none;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+header {
+    background: url(https://gifdb.com/images/high/madara-uchiha-sharingan-eyes-blinking-naruto-5i9qqhc25op9sred.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+header .logo {
+    width: 300px;
+    transition: 0, 02s ease-in-out;
+}
+
+header .imagem-botao {
+    width: 50px;
+    transition: 0, 02s ease-in-out;
+}
