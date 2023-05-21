@@ -115,3 +115,30 @@ main .estrela:hover{
 main .folha:hover{
     background-color: #54811e;
 }
+
+main .grama:hover{
+    background-color: #71c436;
+}
+main .lua:hover{
+    background-color: #818181;
+}
+
+main .neve:hover{
+    background-color: #d6dbe9;
+}
+
+main .nevoa:hover{
+    background-color: #b2a9a9;
+}
+
+main .nuvem:hover{
+    background-color: #c8e2e4;
+}
+
+main .rocha:hover{
+    background-color: #94847b;
+}
+
+main .som:hover{
+    background-color: #9c2987;
+}
