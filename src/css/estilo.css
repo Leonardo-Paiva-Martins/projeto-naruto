@@ -5,7 +5,7 @@ body {
     background-color: #2abdbb;
 
     color: #333333;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
     background-size: auto;
 }
 
@@ -13,7 +13,7 @@ body.modo-escuro {
     background: url("https://images4.alphacoders.com/986/98696.jpg");
     color: #333333;
     transition: 0, 10s ease-in-out;
-    background-repeat: no-repeat;
+    
     background-size: auto;
 }
 
