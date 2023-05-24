@@ -2,22 +2,14 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #2abdbb;
+    background: url("https://static.wikia.nocookie.net/naruto/images/8/8b/Sunagakure_%28HD%29.png/revision/latest?cb=20150129215143&path-prefix=pt-br");
     color: #333333;
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 body.modo-escuro {
-    background: url("https://images4.alphacoders.com/986/98696.jpg");
-    color: #333333;
-    transition: 0, 10s ease-in-out;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-body.modo-escuro {
-    background: url("https://images4.alphacoders.com/986/98696.jpg");
+    background: url("https://static.wikia.nocookie.net/naruto/images/c/c4/Gaara_perde_controle.png/revision/latest?cb=20130124154751&path-prefix=pt-br");
     color: #333333;
     transition: 0, 10s ease-in-out;
     background-repeat: no-repeat;
@@ -57,3 +49,44 @@ header .imagem-botao {
     width: 50px;
     transition: 0, 02s ease-in-out;
 }
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-areia:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+main .png{
+    width: 150px;
+}
+
+main .listagem-areia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-areia{
+    background: url("https://i.pinimg.com/originals/3e/d3/91/3ed3916da0f8f70af64b76f115c1d610.jpg");
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0,2s ease-in-out;
+}
+main .descricao{
+    max-width: 160px;
+    overflow: hidden;
+    font-size: 15px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+  }
