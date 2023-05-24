@@ -4,7 +4,6 @@ body {
     margin: 0 auto;
     background: url("https://static.wikia.nocookie.net/naruto/images/8/8b/Sunagakure_%28HD%29.png/revision/latest?cb=20150129215143&path-prefix=pt-br");
     color: #333333;
-    background-repeat: no-repeat;
     background-size: auto;
 }
 
@@ -12,7 +11,6 @@ body.modo-escuro {
     background: url("https://static.wikia.nocookie.net/naruto/images/c/c4/Gaara_perde_controle.png/revision/latest?cb=20130124154751&path-prefix=pt-br");
     color: #333333;
     transition: 0, 10s ease-in-out;
-    background-repeat: no-repeat;
     background-size: auto;
 }
 
