@@ -1,20 +1,21 @@
-*{
+* {
     flex-wrap: wrap;
-
 }
 
 html {
     background-image: url(https://img.freepik.com/fotos-gratis/salada-de-cenoura-na-tigela-de-ceramica-e-legumes-estao-na-vista-superior-de-tabua-de-madeira-com-espaco-de-copia_176474-157.jpg?w=2000);
     background-size: auto;
-    
+
 }
 
 .dieta {
     background-color: #8c8c8c86;
     border: 5px double black;
+    border-radius: 15px;
 }
 
 .titulo-1 {
+    background-color: rgba(240, 248, 255, 0.411);
     text-align: center;
     border-bottom: 10px;
     border-color: black;
@@ -32,7 +33,7 @@ html {
 }
 
 .titulo-2 {
-    
+    background-color: rgba(240, 248, 255, 0.411);
     text-align: center;
     border-top: 0px;
     border-right: 0px;
@@ -44,7 +45,7 @@ html {
 }
 
 .itens {
-    
+
     margin: 25px 50px 25px 50px;
     border-top: 0px;
     border-right: 10px;
@@ -59,11 +60,11 @@ html {
 }
 
 .lista {
-    
+    flex-wrap: wrap;
     display: flex;
 }
+
 .proteinas, .cabs, .gorduras {
-    
     list-style: none;
     text-align: center;
     padding: 0px 50px 25px 50px;
