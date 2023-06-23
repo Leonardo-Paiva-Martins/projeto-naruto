@@ -47,13 +47,16 @@ html {
     border-color: black;
     border-style: double;
     border-radius: 15px;
-   
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 248, 255, 0.411);
 }
 
 .lista {
     display: flex;
 }
-.proteinas {
+.proteinas, .cabs, .gorduras {
     list-style: none;
     text-align: center;
+    padding: 0px 50px 25px 50px;
 }
