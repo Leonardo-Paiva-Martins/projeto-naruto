@@ -1,0 +1,43 @@
+html {
+    background-image: url(https://img.freepik.com/fotos-gratis/salada-de-cenoura-na-tigela-de-ceramica-e-legumes-estao-na-vista-superior-de-tabua-de-madeira-com-espaco-de-copia_176474-157.jpg?w=2000);
+    background-size: auto;
+}
+
+.dieta {
+    background-color: #8c8c8c86;
+    border: 5px double black;
+    height: auto;
+    width: auto;
+}
+
+.titulo-1 {
+    text-align: center;
+    border-bottom: 10px;
+    border-color: black;
+    border-style: double;
+    margin: 25px 50px 0px 50px;
+    border-radius: 15px;
+}
+
+.produtos {
+    margin: 10px 100px 10px 100px;
+    border-bottom: 10px;
+    border-color: black;
+    border-style: double;
+    border-radius: 15px;
+}
+
+.titulo-2 {
+    text-align: center;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 10px;
+    border-left: 0px;
+    border-color: black;
+    border-style: double;
+    border-radius: 15px;
+}
+
+.lista {
+    background-color: aliceblue;
+}
