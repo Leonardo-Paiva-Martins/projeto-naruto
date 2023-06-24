@@ -82,3 +82,17 @@ li {
     border-style: solid;
     border-radius: 15px;
 }
+
+.total {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 10px;
+    border-left: 0px;
+    border-color: black;
+    border-style: double;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.411);
+    padding: 5px 10px 5px 10px;
+    font-family: sans-serif;
+}
