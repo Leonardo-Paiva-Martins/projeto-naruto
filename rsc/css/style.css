@@ -71,6 +71,8 @@ html {
 .gorduras {
     text-align: center;
     margin: auto;
+    border: none;
+    list-style: none;
 }
 
 li {
